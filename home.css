@@ -1,0 +1,186 @@
+@import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+                                                
+}
+.nav-bar{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 99%;
+    top: 0px;
+   
+}
+.logo img{
+    width: 100px;
+    margin-right: 20px;
+    
+}
+.search {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+
+}
+.search input{
+   
+    padding: 10px 20px;
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+}
+.search button{
+    color: white;
+    background-color:rgb(15, 15, 15);
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: rgb(36, 35, 35);
+}
+
+.nav-links a{
+    color: rgb(238, 238, 242);
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+.nav-links a:hover{
+    text-decoration: underline;
+    color:rgb(56, 54, 54) ;
+
+
+}
+.nav-icons a{
+    margin: 10px;
+    margin-left: 30px;
+}
+.nav-icons img{
+    width: 25px;
+    filter: invert(100%);
+    
+   
+}
+.nav-icons img:hover{
+    cursor: pointer;
+    transform: scale(1.0); /* Scale up on hover */
+    box-shadow: 0 0 20px 10px rgba(222, 153, 4, 0.8);
+}
+.main11{
+    margin-left: 20px;
+}
+.main{
+    margin-left: 20px;
+}
+.hero-section{
+    margin-top: 50px;
+}
+.hero-section {
+    margin-top: 120px;    
+}
+.hero-section img{
+    margin: 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+    
+    
+}
+.hero-section .src{
+     top: 500px;
+}
+.card{
+    width: 300px;
+    height: 261px;
+    background-color: rgb(242, 235, 235);
+    border-radius: 10px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    width: 300px;
+    height: 150px;
+}
+
+.card div{
+   
+    /* margin-top: 10px; */
+}
+
+.card .btn button{
+    padding: 3px 100px;
+    border-radius: 5px;
+    background: rgb(34,127,195);
+    background: linear-gradient(0deg, rgba(34,127,195,0.9080882352941176) 0%, rgba(45,217,253,1) 100%);
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.card .btn button:hover{
+    background-color:white;
+
+}
+.card .brand p{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+    
+   
+}
+.lower-card .info p{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    background-color: #000;
+    margin-left: 15px;
+    
+    
+}
+
+.card .btn{
+    background-color: #000;
+}
+
+.card .info{
+    background-color: #000;
+}
+
+.card .lower-card{
+
+background-color: #000;
+}
+.full-card{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left:40PX;
+}
+/* .full-card .card .logo img{
+    height: 99px;
+    width: 300px;
+    
+    
+} */
